@@ -1,0 +1,22 @@
+h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+}
+
+.form-select {
+    display: block;
+    width: 90%;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,0.75rem);
+    padding-left: var(--bs-gutter-x,0.75rem);
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

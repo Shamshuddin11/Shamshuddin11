@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Employee Registration
+    </title>
+    <link rel="stylesheet" href="emp.css">
+</head>
+
+<body>
+    <table>
+        <tr class ="row">
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>E-Mail Id</label>
+                        <input type="email" name="mailid" id="mailid">
+                    </div>
+                    <div>
+                        <label>Date Of Birth</label>
+                        <input type="date" name="dob" id="dob">
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+						<input type = "button" value = "Refresh" onclick = "getFromLocalStorage( );">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list hide" id="employeeList">
+                    <thead>
+                        <tr>
+							<th>Emp Id</th>
+                            <th>Full Name</th>
+                            <th>E-Mail  Id</th>
+                            <th>Date Of Birth</th>
+                            <th>City</th>
+                            <th>Edit/Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="emp.js"></script>
+</body>
+
+</html>
+
+		
+		

@@ -1,0 +1,13 @@
+.bs-example{
+    margin: 20px;
+  }
+
+  .bs-example1{
+    width : 90%;
+    margin-left : 60px;
+  }
+
+  .form-control {
+    border-color: rgb(179, 46, 86);
+    box-shadow: rgb(117, 40, 57);
+} 

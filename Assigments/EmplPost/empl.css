@@ -1,0 +1,46 @@
+.leftside {
+    height : 800px;
+    width : 50%;
+    background-color :snow
+}
+
+.rightside{
+    height : 800px;
+    width : 50%;
+    background-color :silver
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.form-control {
+    display: block;
+    width: 80%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5%;
+    font-weight: bold;
+}
+
+.table {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse:initial;
+}
+
+a:not([href]):not([class]) {
+    color: red;
+    text-decoration: none;
+}
+    

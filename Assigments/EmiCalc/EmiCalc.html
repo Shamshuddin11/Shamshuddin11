@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <Title>Loan Emi Calculator</Title>
+            <link rel = "stylesheet" href = "EmiCalc.css">
+        </head>
+        <body>
+                <div class= "heading">Loan Emi Calculator</div>
+          <form onsubmit="event.preventDefault();calculate();">
+            <div class = "styling">
+                <div>
+                    <label class='labelAmt'>Loan Amount : </label>
+                    <input type="text" name="loanAmt" id="loanAmt"><br>
+                </div>
+                <div>
+                    <label class='labelInt'>Interest Rate(p.a) : </label>
+                    <input type="text" name="intrst" id="intrst"><br>
+                </div>
+                <div>
+                    <label class='labelMonth'>Loan Term (Months) : </label>
+                    <input type="text" name="months" id="months"><br>
+                </div>
+                <div>
+                    <input type="submit" value="Calculate">
+                    <input type="button" value="Reset" onclick="resetCalc()">
+                </div>
+                <div>
+                    <label class='labelRes'>Monthly EMI :</label>
+                    <input type ="text" name="result" id="result" readonly> 
+                </div>
+             </div>
+            </form>
+            <script src="EmiCalc.js"></script>
+        </body>
+
+    </html>

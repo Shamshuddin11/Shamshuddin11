@@ -1,0 +1,23 @@
+.form-select {
+    display: block;
+    width: 30%;
+    margin-left :110px;
+}
+
+.form-control {
+    display: block;
+    width: 30%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left : 110px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 110px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
